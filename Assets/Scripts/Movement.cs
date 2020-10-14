@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
     [SerializeField] float mainThrust = 100f;
     [SerializeField] float rotationThrust = 1f;
     Rigidbody rb;
-    
+
     // Start is called before the first frame update
     void Start()
     {
