@@ -315,6 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afbc8ce0ed9f66148929481a1480a32f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelLoadDelay: 2
 --- !u!1001 &1466179449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -390,6 +391,10 @@ PrefabInstance:
     - target: {fileID: 152661364, guid: 58384cdd979357e4ba95a985f433219c, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2485043273669229581, guid: 58384cdd979357e4ba95a985f433219c, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3395872900666235305, guid: 58384cdd979357e4ba95a985f433219c, type: 3}
       propertyPath: m_Name
